@@ -12,7 +12,7 @@ body {
   margin: 0;
 }
 /* Navbar */
-#warning_nav {
+/* #warning_nav {
   background-color: #ffd700;
   font-size: 20px;
   text-align: center;
@@ -20,11 +20,18 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
+  height: 80px;
 }
+.temp-div-nav{
+  height: 80px;
+} */
+#nav-img{
+  height: 30px;
+}
+
 
 /* Main Div */
 .main_div {
-  padding-top: 80px;
   padding-bottom: 30px;
   text-align: center;
 }
