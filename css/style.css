@@ -110,6 +110,7 @@ body {
 }
 /* Contact Me */
 .contact-me{
+  background-color: white;
   text-align: center;
   padding: 80px 10%;
 }
@@ -158,4 +159,8 @@ body {
   text-align: center;
   padding: 0 20%;
   padding-bottom: 50px;
+}
+/* Spotify */
+.spotify{
+  display: flex;
 }
