@@ -1,0 +1,17 @@
+/* Colors */
+/* #191919;
+#ffe1d0; */
+/* Common */
+body{
+    text-align: center;
+}
+/* Navbar */
+.navbar{
+    background-color: #191919;
+}
+
+/* Head Section */
+.head-page{
+    background-color: #191919;
+    height: 100vh;
+}
