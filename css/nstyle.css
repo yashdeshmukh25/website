@@ -2,16 +2,59 @@
 /* #191919;
 #ffe1d0; */
 /* Common */
-body{
+/* body{
     text-align: center;
-}
+} */
 /* Navbar */
-.navbar{
+/* .navbar{
     background-color: #191919;
-}
+} */
 
 /* Head Section */
-.head-page{
+/* .head-page{
     background-color: #191919;
     height: 100vh;
+} */
+
+/* Default */
+body {
+  background-color: #191919;
+  color: #ffe1d0;
+  text-align: center;
+  margin: 0;
 }
+/* First Screen */
+.head-first {
+  height: 100vh;
+  padding: 0 15%;
+}
+
+/* Navigation */
+nav {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 10%;
+  }
+  .nav-button {
+    background-color: #191919;
+    color: #ffe1d0;
+    border: none;
+    font-size: 1.6rem;
+    margin: 10px;
+  }
+  .nav-button:hover {
+    background-color: #191919;
+    color: #ffe1d0;
+    /* text-decoration: underline; */
+    border: none;
+    font-size: 1.8rem;
+    margin: 10px;
+  }
+  .nav-current{
+    opacity: 55%;
+  }
+  .nav-current:hover{
+    font-size: 1.6rem;
+  }
